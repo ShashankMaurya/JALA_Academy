@@ -16,5 +16,7 @@
         <SOURCES />
       </library>
     </orderEntry>
+    <orderEntry type="library" name="commons-collections4-4.0" level="project" />
+    <orderEntry type="library" name="poi-excelant-5.2.2" level="project" />
   </component>
 </module>

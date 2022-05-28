@@ -1,18 +1,18 @@
 package lab15_JavaIO;
 
+import java.io.BufferedInputStream;
 import java.io.File;
 import java.io.FileInputStream;
-import java.io.InputStream;
 
-public class Q1 {
+public class Q3 {
     public static void main(String[] args) {
-        try{
+        try {
             File f=new File("src\\lab15_JavaIO\\files\\passage.txt");
-            InputStream is=new FileInputStream(f);
+            BufferedInputStream bis=new BufferedInputStream(new FileInputStream(f));
             int i;
-            while((i=is.read())!=-1)
+            while((i=bis.read())!=-1)
                 System.out.print((char)i);
-            is.close();
+            bis.close();
         }
         catch(Exception e)
         {

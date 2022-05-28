@@ -1,0 +1,5 @@
+#Sample Properties file
+#Sun May 29 02:18:48 IST 2022
+College=KIIT
+Name=Sharon
+Roll=1928259

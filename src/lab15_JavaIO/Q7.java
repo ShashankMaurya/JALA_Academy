@@ -1,18 +1,18 @@
 package lab15_JavaIO;
 
+import java.io.BufferedReader;
 import java.io.File;
-import java.io.FileInputStream;
-import java.io.InputStream;
+import java.io.FileReader;
 
-public class Q1 {
+public class Q7 {
     public static void main(String[] args) {
-        try{
+        try {
             File f=new File("src\\lab15_JavaIO\\files\\passage.txt");
-            InputStream is=new FileInputStream(f);
+            BufferedReader br=new BufferedReader(new FileReader(f));
             int i;
-            while((i=is.read())!=-1)
+            while((i= br.read())!=-1)
                 System.out.print((char)i);
-            is.close();
+            br.close();
         }
         catch(Exception e)
         {
