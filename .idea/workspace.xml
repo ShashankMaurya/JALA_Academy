@@ -5,27 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d8abd98d-154d-4bfe-99fa-852ee189aa05" name="Changes" comment="Uncompleted commit">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/commons_collections4_4_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lab15_JavaIO/Q10.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lab15_JavaIO/Q11.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lab15_JavaIO/Q2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lab15_JavaIO/Q3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lab15_JavaIO/Q4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lab15_JavaIO/Q5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lab15_JavaIO/Q6.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lab15_JavaIO/Q7.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lab15_JavaIO/Q8.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lab15_JavaIO/Q9.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lab15_JavaIO/files/Prop_appendix.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lab15_JavaIO/files/appendix.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lab15_JavaIO/files/appendix2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lab15_JavaIO/files/appendix3.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lab15_JavaIO/files/appendix4.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lab15_JavaIO/files/passage.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lab16_Collections/Q1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lab16_Collections/array_list.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lab16_Collections/hash_map.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lab16_Collections/hash_set.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Java.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lab15_JavaIO/Q1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lab15_JavaIO/Q1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lab16_Collections/Q1.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +46,6 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$USER_HOME$/Downloads/poi-bin-5.2.2-20220312/poi-bin-5.2.2/lib/SparseBitSet-1.2.jar" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
@@ -70,48 +53,9 @@
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="advanced.settings" />
   </component>
-  <component name="RunManager" selected="Application.Q11">
-    <configuration name="Q10" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lab15_JavaIO.Q10" />
-      <module name="Java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lab15_JavaIO.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.hash_set">
     <configuration name="Q11" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lab15_JavaIO.Q11" />
-      <module name="Java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lab15_JavaIO.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Q7" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lab15_JavaIO.Q7" />
-      <module name="Java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lab15_JavaIO.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Q8" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lab15_JavaIO.Q8" />
       <module name="Java" />
       <extension name="coverage">
         <pattern>
@@ -136,13 +80,52 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="array_list" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lab16_Collections.array_list" />
+      <module name="Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lab16_Collections.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="hash_map" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lab16_Collections.hash_map" />
+      <module name="Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lab16_Collections.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="hash_set" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lab16_Collections.hash_set" />
+      <module name="Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lab16_Collections.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.hash_set" />
+        <item itemvalue="Application.hash_map" />
+        <item itemvalue="Application.array_list" />
         <item itemvalue="Application.Q11" />
         <item itemvalue="Application.Q9" />
-        <item itemvalue="Application.Q10" />
-        <item itemvalue="Application.Q8" />
-        <item itemvalue="Application.Q7" />
       </list>
     </recent_temporary>
   </component>
@@ -162,7 +145,21 @@
       <option name="project" value="LOCAL" />
       <updated>1653693244424</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Uncompleted commit">
+      <created>1653774762449</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1653774762449</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Uncompleted commit">
+      <created>1653774773578</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1653774773578</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
